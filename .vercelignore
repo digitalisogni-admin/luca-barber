@@ -1,0 +1,15 @@
+.git
+.gitignore
+README.md
+node_modules
+.env.local
+.env.*.local
+.DS_Store
+*.log
+dev-dist
+.vite
+.tsx
+.ts
+!api/*.ts
+tsconfig.json
+vite.config.ts
