@@ -1,24 +1,14 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
-import { VitePWA } from 'vite-plugin-pwa';
 import path from 'path';
-import {defineConfig, loadEnv} from 'vite';
+import { defineConfig } from 'vite';
 
-export default defineConfig(({mode}) => {
-  const env = loadEnv(mode, '.', '');
+export default defineConfig(() => {
   return {
     plugins: [
-      react(), 
+      react(),
       tailwindcss(),
-      VitePWA({
-        registerType: 'autoUpdate',
-        devOptions: {
-          enabled: true
-        },
-        manifest: false // We are linking it manually in index.html to manage it easier
-      })
     ],
-    // No sensitive API keys injected at build time for public deployments
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
