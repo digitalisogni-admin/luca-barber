@@ -7,13 +7,13 @@ import { motion } from 'motion/react';
 gsap.registerPlugin(ScrollTrigger);
 
 const GALLERY_IMAGES = [
-  { src: 'https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&q=80&w=1200', alt: 'Precision cut' },
-  { src: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=1200', alt: 'Traditional shaving' },
-  { src: 'https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=1200', alt: 'Master barber at work' },
-  { src: 'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=1200', alt: 'Finishing touches' },
-  { src: 'https://images.unsplash.com/photo-1532710093739-9470ac1d4ce1?auto=format&fit=crop&q=80&w=1200', alt: 'Haircut process' },
-  { src: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=1200', alt: 'Barber tools' },
-  { src: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=1200', alt: 'The final look' },
+  { src: '/assets/images/gallery/gallery.jpeg', alt: 'Precision cut' },
+  { src: '/assets/images/gallery/gallery1.jpeg', alt: 'Traditional shaving' },
+  { src: '/assets/images/gallery/gallery2.jpeg', alt: 'Master barber at work' },
+  { src: '/assets/images/gallery/gallery3.jpeg', alt: 'Finishing touches' },
+  { src: '/assets/images/gallery/gallery4.jpeg', alt: 'Haircut process' },
+  { src: '/assets/images/gallery/gallery5.jpeg', alt: 'Barber tools' },
+  { src: '/assets/images/gallery/gallery6.jpeg', alt: 'The final look' },
 ];
 
 export const HorizontalGallery = () => {

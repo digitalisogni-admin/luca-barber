@@ -68,7 +68,7 @@ export const Scrollytelling = () => {
         ref={heroImageRef}
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat scale-110"
         style={{ 
-          backgroundImage: 'url("https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=1920")',
+          backgroundImage: 'url("/assets/images/hero/hero.jpeg")',
           height: '140%'
         }}
       >
@@ -77,7 +77,7 @@ export const Scrollytelling = () => {
       </div>
 
       {/* Cinematic Overlays */}
-      <div className="absolute inset-0 z-[1] pointer-events-none opacity-20 bg-[url('https://www.transparenttextures.com/patterns/dark-matter.png')]" />
+      <div className="absolute inset-0 z-[1] pointer-events-none opacity-20 bg-gradient-to-tr from-black/5 to-transparent" />
 
       {/* Content Overlay */}
       <div className="sticky top-0 w-full h-screen flex flex-col items-center justify-center z-10 pointer-events-none px-6">

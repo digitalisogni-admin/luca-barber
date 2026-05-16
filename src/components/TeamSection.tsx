@@ -6,22 +6,22 @@ export const teamMembers = [
   {
     id: 'master' as const,
     name: 'Marco "The Blade"',
-    image: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=800',
+    image: '/assets/images/barbers/marco.jpeg',
   },
   {
     id: 'artist' as const,
     name: 'Alessandro',
-    image: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=800',
+    image: '/assets/images/barbers/Alessandro.jpeg',
   },
   {
     id: 'specialist' as const,
     name: 'Giovanni',
-    image: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=800',
+    image: '/assets/images/barbers/Giovanni.jpeg',
   },
   {
     id: 'junior' as const,
     name: 'Luca',
-    image: 'https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&q=80&w=800',
+    image: '/assets/images/barbers/Gulia.jpeg',
   }
 ];
 

@@ -217,12 +217,12 @@ const ServicesSection = ({ onBook }: { onBook: () => void }) => {
                 <div className="relative h-64 mb-10 overflow-hidden rounded-2xl group/img">
                   <img 
                     src={[
-                      'https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&q=80&w=600',
-                      'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=600',
-                      'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=600',
-                      'https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=600',
-                      'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=600',
-                      'https://images.unsplash.com/photo-1532710093739-9470ac1d4ce1?auto=format&fit=crop&q=80&w=600'
+                      '/assets/images/services/process.jpeg',
+                      '/assets/images/services/interior.jpeg',
+                      '/assets/images/services/process.jpeg',
+                      '/assets/images/services/interior.jpeg',
+                      '/assets/images/services/process.jpeg',
+                      '/assets/images/services/interior.jpeg'
                     ][i % 6]} 
                     alt={service.name}
                     className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-110 transition-all duration-[1.5s] ease-out"
@@ -323,7 +323,7 @@ const AboutSection = () => {
           <div className="relative group" data-cursor="Since 2018">
             <div className="relative overflow-hidden rounded-[3rem] aspect-[4/5] shadow-2xl border border-theme-border/50">
               <img
-                src="https://images.unsplash.com/photo-1512690117789-8fe1413a77a7?auto=format&fit=crop&q=80&w=1200"
+                src="/assets/images/hero/hero.jpeg"
                 alt="Luca Barber barber shop interior"
                 className="about-image w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-105"
               />
