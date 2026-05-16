@@ -7,13 +7,13 @@ import { motion } from 'motion/react';
 gsap.registerPlugin(ScrollTrigger);
 
 const GALLERY_IMAGES = [
-  { src: '/assets/images/gallery/gallery.jpeg', alt: 'Precision cut' },
-  { src: '/assets/images/gallery/gallery1.jpeg', alt: 'Traditional shaving' },
-  { src: '/assets/images/gallery/gallery2.jpeg', alt: 'Master barber at work' },
-  { src: '/assets/images/gallery/gallery3.jpeg', alt: 'Finishing touches' },
-  { src: '/assets/images/gallery/gallery4.jpeg', alt: 'Haircut process' },
-  { src: '/assets/images/gallery/gallery5.jpeg', alt: 'Barber tools' },
-  { src: '/assets/images/gallery/gallery6.jpeg', alt: 'The final look' },
+  { src: '/assets/images/gallery/gallery@1200.webp', alt: 'Precision cut' },
+  { src: '/assets/images/gallery/gallery1@1200.webp', alt: 'Traditional shaving' },
+  { src: '/assets/images/gallery/gallery2@1200.webp', alt: 'Master barber at work' },
+  { src: '/assets/images/gallery/gallery3@1200.webp', alt: 'Finishing touches' },
+  { src: '/assets/images/gallery/gallery4@1200.webp', alt: 'Haircut process' },
+  { src: '/assets/images/gallery/gallery5@1200.webp', alt: 'Barber tools' },
+  { src: '/assets/images/gallery/gallery6@1200.webp', alt: 'The final look' },
 ];
 
 export const HorizontalGallery = () => {

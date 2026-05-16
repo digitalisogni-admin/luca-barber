@@ -68,7 +68,7 @@ export const Scrollytelling = () => {
         ref={heroImageRef}
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat scale-110"
         style={{ 
-          backgroundImage: 'url("/assets/images/hero/hero.jpeg")',
+          backgroundImage: 'url("/assets/images/hero/hero@1200.webp")',
           height: '140%'
         }}
       >

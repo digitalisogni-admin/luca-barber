@@ -217,12 +217,12 @@ const ServicesSection = ({ onBook }: { onBook: () => void }) => {
                 <div className="relative h-64 mb-10 overflow-hidden rounded-2xl group/img">
                   <img 
                     src={[
-                      '/assets/images/services/process.jpeg',
-                      '/assets/images/services/interior.jpeg',
-                      '/assets/images/services/process.jpeg',
-                      '/assets/images/services/interior.jpeg',
-                      '/assets/images/services/process.jpeg',
-                      '/assets/images/services/interior.jpeg'
+                      '/assets/images/services/process@1200.webp',
+                      '/assets/images/services/interior@1200.webp',
+                      '/assets/images/services/process@1200.webp',
+                      '/assets/images/services/interior@1200.webp',
+                      '/assets/images/services/process@1200.webp',
+                      '/assets/images/services/interior@1200.webp'
                     ][i % 6]} 
                     alt={service.name}
                     className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 group-hover:scale-110 transition-all duration-[1.5s] ease-out"
@@ -323,7 +323,7 @@ const AboutSection = () => {
           <div className="relative group" data-cursor="Since 2018">
             <div className="relative overflow-hidden rounded-[3rem] aspect-[4/5] shadow-2xl border border-theme-border/50">
               <img
-                src="/assets/images/hero/hero.jpeg"
+                src="/assets/images/hero/hero@1200.webp"
                 alt="Luca Barber barber shop interior"
                 className="about-image w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-105"
               />

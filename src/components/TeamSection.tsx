@@ -6,22 +6,22 @@ export const teamMembers = [
   {
     id: 'master' as const,
     name: 'Marco "The Blade"',
-    image: '/assets/images/barbers/marco.jpeg',
+    image: '/assets/images/barbers/marco@800.webp',
   },
   {
     id: 'artist' as const,
     name: 'Alessandro',
-    image: '/assets/images/barbers/Alessandro.jpeg',
+    image: '/assets/images/barbers/Alessandro@800.webp',
   },
   {
     id: 'specialist' as const,
     name: 'Giovanni',
-    image: '/assets/images/barbers/Giovanni.jpeg',
+    image: '/assets/images/barbers/Giovanni@800.webp',
   },
   {
     id: 'junior' as const,
     name: 'Luca',
-    image: '/assets/images/barbers/Gulia.jpeg',
+    image: '/assets/images/barbers/Gulia@800.webp',
   }
 ];
 
