@@ -8,8 +8,4 @@ node_modules
 *.log
 dev-dist
 .vite
-.tsx
-.ts
 !api/*.ts
-tsconfig.json
-vite.config.ts
